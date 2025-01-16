@@ -1,3 +1,49 @@
 # high-school-python-code
 
-ハイスクール Python で使用されているソースコードをまとめたものです
+- [`ハイスクールPython`](https://www.amazon.co.jp/dp/B09663331Q) で使用されているソースコードをまとめたものです
+- [GitHub Repository](https://github.com/high-school-python/high-school-python-code)
+
+`ハイスクールPython` で使用されているソースコードをまとめたものです
+
+## 開発環境の構築
+
+### 1. uv のインストール
+
+このリポジトリでは、パッケージ管理に [uv](https://docs.astral.sh/uv/) を使用しています。まずはこちらの内容に従って、PC に uv をインストールしてください。
+
+```sh
+# Windows の場合
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Mac の場合
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### 2. パッケージのインストール
+
+以下のコマンドを実行してください。すると、`pyproject.toml` に記載されているパッケージがインストールされます。仮想環境は、`.venv/` に作成されます。
+
+```sh
+uv sync
+```
+
+パッケージを追加する場合は、以下のように `uv add` コマンドを使用してください。
+
+```sh
+# requests を追加
+uv add requests
+
+# 開発環境のみに追加
+uv add --dev types-requests
+
+# アップデート
+uv add --upgrade requests
+```
+
+## 3. スクリプトの実行
+
+以下のように、`uv run` コマンドを使用して、スクリプトを実行できます。
+
+```sh
+uv run src/hello.py
+```
