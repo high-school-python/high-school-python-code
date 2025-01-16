@@ -1,6 +1,6 @@
 # high-school-python-code
 
-- [`ハイスクールPython`](https://www.amazon.co.jp/dp/B09663331Q) で使用されているソースコードをまとめたものです
+- [`ハイスクールPython`](https://high-school-python.jp) で使用されているソースコードをまとめたものです
 - [GitHub Repository](https://github.com/high-school-python/high-school-python-code)
 
 `ハイスクールPython` で使用されているソースコードをまとめたものです
