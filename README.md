@@ -1,5 +1,10 @@
 # high-school-python-code
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
+[![Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
+
 - [`ハイスクールPython`](https://high-school-python.jp) で使用されているソースコードをまとめたものです
 - [GitHub Repository](https://github.com/high-school-python/high-school-python-code)
 
