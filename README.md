@@ -8,7 +8,7 @@
 - [`ハイスクールPython`](https://high-school-python.jp) で使用されているソースコードをまとめたものです
 - [GitHub Repository](https://github.com/high-school-python/high-school-python-code)
 
-`ハイスクールPython` で使用されているソースコードをまとめたものです
+`ハイスクールPython` で使用されているソースコードをまとめたものです。
 
 ## ディレクトリ構成
 
