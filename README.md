@@ -15,19 +15,20 @@
 このようなディレクトリ構成になっています
 
 ```sh
-high-school-python-code/  # このリポジトリのルートディレクトリ
-├── .vscode/              # VSCode の設定ファイル
-├── colab/                # Google Colab 用の Jupyter Notebook ファイル
-│   ├── lesson_1.ipynb    # レッスン 1 のソースコード
-│   ├── lesson_2.ipynb    # レッスン 2 のソースコード
-│   └── ...
-└── src/                  # ソースコード (uv 環境で実行可能)
-    ├── lesson_1/         # レッスン 1 のソースコード
-    │   ├── 1.py
-    │   ├── 2.py
-    │   └── ...
-    ├── lesson_2/         # レッスン 2 のソースコード
-    ├── lesson_3/         # レッスン 3 のソースコード
+high-school-python-code/    # このリポジトリのルートディレクトリ
+├── .vscode/                # VSCode の設定ファイル
+└── src/                    # ソースコード (uv 環境で実行可能)
+    ├── lesson_1/           # レッスン 1 のソースコード
+    │   ├── 1-1.py          # チャプター 1-1 のソースコード
+    │   ├── 1-2.py          # チャプター 1-2 のソースコード
+    │   ├── ...
+    │   └── lesson_1.ipynb  # レッスン 1 の Jupyter Notebook ファイル
+    ├── lesson_2/           # レッスン 2 のソースコード
+    │   ├── 2-1.py          # チャプター 2-1 のソースコード
+    │   ├── 2-2.py          # チャプター 2-2 のソースコード
+    │   ├── ...
+    │   └── lesson_2.ipynb  # レッスン 2 の Jupyter Notebook ファイル
+    ├── lesson_3/           # レッスン 3 のソースコード
     ├── ...
     └── hello.py          # サンプルスクリプト
 ```
