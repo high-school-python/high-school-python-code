@@ -64,29 +64,6 @@ print(f"在庫少：{is_low_stock}")
 print(f"要発注：{needs_reorder}")
 
 
-"""本の情報管理"""
-title: str = "Python入門"
-author: str = "情報太郎"
-page_count: int = 248
-price: int = 2800
-rating: float = 4.5
-is_borrowed: bool = False
-return_date: str = "2024-02-15"
-
-# 貸出状況の表示
-print("【書籍情報】")
-print(f"タイトル：{title}")
-print(f"著者：{author}")
-print(f"ページ数：{page_count}ページ")
-print(f"価格：{price}円")
-print(f"評価：{rating}点")
-
-if is_borrowed:
-    print(f"貸出中（返却予定日：{return_date}）")
-else:
-    print("貸出可能")
-
-
 """f-strings の便利な機能"""
 price: int = 1234567
 rate: float = 3.14159
