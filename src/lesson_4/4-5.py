@@ -16,14 +16,14 @@ print(f"点数：{scores}")
 print(f"合計：{total}")
 print(f"平均：{average}")
 
-# 合格者数を数える （80 点以上）
+# 合格した教科の数を数える （80 点以上）
 pass_count = 0
 
 for score in scores:
     if score >= 80:
         pass_count += 1
 
-print(f"合格者数：{pass_count}人")
+print(f"合格した教科：{pass_count}教科")
 
 
 """名前の検索"""

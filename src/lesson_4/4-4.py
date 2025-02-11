@@ -28,6 +28,22 @@ else:  # for ループが正常に （break されずに） 終了した場合
     print("ゲームオーバー")
 
 
+# while 文でも同様に else が使えます
+count = 5
+while count > 0:
+    guess = int(input(f"1 から 10 の数を当ててください（残り {count} 回）："))
+    count -= 1
+
+    if guess == target:
+        print("正解！おめでとう！")
+        break
+
+    print("違います")
+
+else:  # while ループが正常に （break されずに） 終了した場合
+    print("ゲームオーバー")
+
+
 """3 の倍数をスキップする"""
 for i in range(1, 6):
     if i % 3 == 0:
