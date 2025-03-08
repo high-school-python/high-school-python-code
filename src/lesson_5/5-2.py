@@ -67,9 +67,9 @@ numbers.sort(reverse=True)  # 降順に並び替え
 print(numbers)  # [9, 5, 4, 3, 2, 1, 1]
 
 # 文字列のソート
-names = ["田中", "山田", "佐藤", "鈴木"]
-names.sort()  # 50音順に並び替え
-print(names)  # ['佐藤', '鈴木', '田中', '山田']
+names = ["Smith", "Brown", "Davis", "Anderson"]
+names.sort()  # アルファベット順に並び替え
+print(names)  # ['Anderson', 'Brown', 'Davis', 'Smith']
 
 
 """reverse() で順序を反転"""
