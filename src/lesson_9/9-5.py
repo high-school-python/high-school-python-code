@@ -25,7 +25,7 @@ y3 = np.random.normal(10, 3, n)
 x4 = np.linspace(0, 10, n)
 y4 = 2 * (x4 - 5) ** 2 + np.random.normal(0, 3, n)
 
-# 4つのサブプロットを作成
+# 4 つのサブプロットを作成
 plt.figure(figsize=(12, 10))
 
 # 強い正の相関
