@@ -8,8 +8,10 @@ data = [75, 82, 91, 68, 88, 85, 77, 93, 84, 79]
 # 基本統計量の計算
 mean = statistics.mean(data)  # 平均値
 median = statistics.median(data)  # 中央値
-mode = statistics.mode(data)  # 最頻値 （モード） ※ 同数の場合はエラーが出ます
-range = max(data) - min(data)  # 範囲
+# mode は、 Python 3.8 以降では、同率一位の場合は最初に出現した値を返します
+mode = statistics.mode(data)  # 最頻値 （モード）
+# range とすると Python の range 関数と値が被るので、range_ とします
+range_ = max(data) - min(data)  # 範囲
 iqr = statistics.quantiles(data, n=4)[2] - statistics.quantiles(data, n=4)[0]  # 四分位範囲
 stdev = statistics.stdev(data)  # 標準偏差
 variance = statistics.variance(data)  # 分散
